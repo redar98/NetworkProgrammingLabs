@@ -16,6 +16,10 @@ public class Main {
                     .addParameter("toyshop", "Kidosz");
             HTTPRequest patchRequest = new HTTPRequest("http://httpbin.org/patch", RequestType.PATCH);
 
+            HTTPRequest authRequest = new HTTPRequest("http://httpbin.org/basic-auth", RequestType.GET)
+                    .addParameter("user", "deniz")
+                    .addParameter("passwd", "password");
+
             testHttpRequest(getRequest);
             testHttpRequest(postRequest);
             testHttpRequest(putRequest);

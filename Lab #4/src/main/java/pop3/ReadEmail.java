@@ -7,8 +7,8 @@ import java.util.Enumeration;
 import java.util.Properties;
 
 public class ReadEmail {
-    public static final String USERNAME = "un*********@gmail.com";
-    public static final String PASSWORD = "<password>";
+    public static final String USERNAME = "universe.of.8@gmail.com";
+    public static final String PASSWORD = "dummypassword123";
 
     public static void main(String[] args) {
         // mail server connection parameters
